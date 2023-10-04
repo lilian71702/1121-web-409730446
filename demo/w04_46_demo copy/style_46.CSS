@@ -1,0 +1,64 @@
+body{
+    background-color: aliceblue;
+}
+.card{
+    background-color: #ffffff;
+    border: 1px solid purple;
+    padding: 1.5rem 2rem;
+    margin: 3rem;
+    text-align: center;
+}
+
+.card-1{
+    border: 2px solid #F694C1;
+    border-radius: 5%;
+}
+
+.card-2{
+    border: 2px solid #D3F8E2;
+    border-radius: 5%;
+}
+
+.icon{
+    width: 40px;
+    height: 40px;
+    background: #F694C1;
+    border-radius: 50%;
+    margin: 0 auto;
+
+}
+
+.icon-1{
+    width: 40px;
+    height: 40px;
+    background: #F694C1;
+    border-radius: 50%;
+    margin: 0 auto;  
+}
+
+.icon-2{
+    width: 40px;
+    height: 40px;
+    background: #D3F8E2;
+    border-radius: 50%;
+    margin: 0 auto;  
+}
+
+.btn {
+    border: transparent;
+    padding: 0.5rem 1rem; 
+    margin: 3rem;
+    text-transform: capitalize;
+}
+
+.btn1 {
+    color: #F694C1;
+    background-color: rgba(246, 148, 193, 0.1);
+    border:1px solid rgba(246, 148, 193, 1);
+}
+
+.btn2 {
+    color: #52d687;
+    background-color: rgba(211, 248, 226, 0.1);
+    border:1px solid rgba(211, 248, 226, 1);
+}
