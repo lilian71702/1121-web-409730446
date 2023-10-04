@@ -2,6 +2,7 @@ body{
     background-color: aliceblue;
 }
 .card{
+    max-width: 300px;
     background-color: #ffffff;
     border: 1px solid purple;
     padding: 1.5rem 2rem;
@@ -61,4 +62,13 @@ body{
     color: #52d687;
     background-color: rgba(211, 248, 226, 0.1);
     border:1px solid rgba(211, 248, 226, 1);
+}
+
+.img{
+    width: 100%;
+    height: 220px;
+    object-fit: cover; 
+    /* 讓圖片可以不變形 */
+    border-radius: 0.5rem;
+
 }
