@@ -6,8 +6,11 @@
 }
 
 :root {
+    --primary: #645c64;
+    --
     --grey-light: #f1f5f9;
     --grey-dark: #0f172a;
+    --letter-spacing: 2px;
 }
 
 body {
@@ -44,4 +47,30 @@ body {
 .blog {
   background-color: white;
   padding: 1rem;
+  box-shadow: 0 5px 15px rgb(0, 0, 0,0.2);
+}
+
+.blog-content {
+    padding: 0.5rem 0;
+
+}
+
+.blog-content span{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: var(--letter-spacing);
+    font-weight: 550;
+    color: var(--primary);
+}
+
+.blog-content h3{
+
+}
+
+.blog-content p{
+    font-size: 10px;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+
 }
