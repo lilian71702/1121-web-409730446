@@ -45,6 +45,13 @@ body {
     padding: 0.2rem;
 }
 
+.blogs-center2{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+    gap: 2rem;
+    padding: 0.2rem;
+}
+
 .blog {
   background-color: white;
   padding: 1rem;
