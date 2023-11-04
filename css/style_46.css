@@ -1,26 +1,30 @@
 *{
     margin: 0;
-    padding: 0;
+    paddingg: 0;
     box-sizing: border-box;
+
 }
-body{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+:root {
+    --primary: #645c64;
+    --
+    --grey-light: #f1f5f9;
+    --grey-dark: #0f172a;
+    --letter-spacing: 2px;
+}
+
+body {
+    background-color: var(--grey-light);
+    color: var(--grey-dark);
+    font-family: 'Times New Roman', Times, serif;
     font-size: 10px;
-    background-color: rgba(172, 104, 255, 0.1);
-    color: rgba(119, 0, 140, 0.9);
 }
 
 li{
     list-style-type: none;
 }
 
-a {
-    text-decoration: none;
-    color: rgba(175, 27, 202, 0.9);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 0.7rem;
-}
-
+/* nav */
 .nav{
     height: 70px;
     background-color: rgba(255, 182, 253, 0.484);
@@ -63,9 +67,12 @@ a {
     padding-bottom: 0.6px;
 }
 
-.show-classdemo{
+.navbar-fixed{
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
-    height: 90vh;
-    background-color: rgba(254, 241, 255, 0.416);
-
+    z-index: 2;
+    background-color: white;
+    box-shadow: 0 5px rgba(119, 0, 140, 0.5);
 }
