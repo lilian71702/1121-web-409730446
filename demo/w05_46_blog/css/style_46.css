@@ -1,13 +1,12 @@
 *{
-    margin: 0;
-    paddingg: 0;
+    margin: 2px;
+    paddingg: 00px;
     box-sizing: border-box;
 
 }
 
 :root {
     --primary: #645c64;
-    --
     --grey-light: #f1f5f9;
     --grey-dark: #0f172a;
     --letter-spacing: 2px;
@@ -30,7 +29,6 @@ body {
     display: block;
     object-fit: cover;
 }
-
 .section-title{
     text-align: center;
     text-transform: capitalize;
@@ -83,37 +81,8 @@ body {
 
 }
 
-@media screen and (min-width: 500px) {
-    .blogs-center{
-        grid-template-columns: repeat(2 ,1fr);
-    } 
-    
-}
-
-@media screen and (min-width: 800px) {
-    .blogs-center{
-        grid-template-columns: repeat(3 ,1fr);
-    } 
-    
-}
-
-@media screen and (min-width: 992px) {
-    .blogs-center{
-        grid-template-columns: repeat(4 ,1fr);
-    } 
-    
-}
-
-@media screen and (min-width: 1200px) {
-    .blogs-center{
-        grid-template-columns: repeat(6 ,1fr);
-    } 
-    
-}
-
-@media screen and (min-width: 1400px) {
-    .blogs-center{
-        grid-template-columns: repeat(8 ,1fr);
-    } 
-    
+.blog-content a{
+    text-transform: capitalize;
+    color: var(--primary-dark);
+    letter-spacing: var(--letter-spacing);
 }

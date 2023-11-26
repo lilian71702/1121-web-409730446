@@ -1,13 +1,13 @@
 *{
     margin: 0;
-    paddingg: 0;
+    padding: 0;
     box-sizing: border-box;
 
 }
 
 :root {
     --primary: #645c64;
-    --
+    --primary-dark: #645c75;
     --grey-light: #f1f5f9;
     --grey-dark: #0f172a;
     --letter-spacing: 2px;
