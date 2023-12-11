@@ -1,0 +1,2 @@
+監控
+sass --watch demo/w13_portfolio_46/scss:demo/w13_portfolio_46/css
