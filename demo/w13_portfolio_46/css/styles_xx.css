@@ -232,6 +232,11 @@ Navbar
   cursor: pointer;
 }
 
+.nav-logo {
+  width: 236px;
+  height: 60px;
+}
+
 .navbar-fixed {
   position: fixed;
   left: 0;
@@ -312,6 +317,56 @@ Sidebar
 Hero
 ===============
 */
+.hero {
+  background-color: var(--clr-grey-9);
+}
+.hero-center {
+  min-height: calc(100vh - 4rem);
+  display: grid;
+  place-items: center;
+}
+.hero .underline {
+  margin-left: 0;
+  margin-bottom: 5rem;
+}
+.hero h4 {
+  font-size: 12px;
+}
+.hero-img {
+  display: none;
+}
+.hero .social-icons {
+  justify-content: start;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-center {
+    grid-template-columns: 1fr 1fr;
+  }
+  .hero-img {
+    display: block;
+    width: 70%;
+    position: relative;
+    border-radius: var(--radius);
+  }
+  .hero-img::before {
+    content: " ";
+    position: absolute;
+    top: 2rem;
+    right: -2rem;
+    width: 100%;
+    height: 100%;
+    border: 0.25rem solid var(--clr-grey-1);
+    border-radius: var(--radius);
+  }
+  .hero-photo {
+    max-width: 20rem;
+    max-height: 25rem;
+    object-fit: cover;
+    border-radius: var(--radius);
+    position: relative;
+  }
+}
 /*
 =============== 
 About
