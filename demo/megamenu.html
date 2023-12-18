@@ -9,6 +9,7 @@
 		<title>Responsive Mega Menu Example</title>
 		<link rel="stylesheet" type="text/css" href="./css/mega1.css">
 		<link rel="stylesheet" type="text/css" href="./css/maga2.css">
+		<link rel="stylesheet" href="./css/classdemo.css">
 		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/4.6.3/css/ionicons.min.css">
 	</head>
 
@@ -61,15 +62,29 @@
 									</div>
 								</li>
 								<li class="menu-item-has-children">
-									<a href="#">Category <i class="ion ion-ios-arrow-down"></i></a>
+									<a href="#">ClassDemo <i class="ion ion-ios-arrow-down"></i></a>
 									<div class="menu-subs menu-mega menu-column-4">
 										<div class="list-item">
-											<h4 class="title">Men's Fashion</h4>
+											<h4 class="title">Week1--Week8</h4>
 											<ul>
-												<li><a href="#">Product List</a></li>
-												<li><a href="#">Product List</a></li>
-												<li><a href="#">Product List</a></li>
-												<li><a href="#">Product List</a></li>
+												<li onclick="showdemo(1)">
+													<a href="#"> w1-intro</a>
+												</li>
+												<li onclick="showdemo(3)">
+													<a href="#"> w3-card</a>
+												</li>
+												<li onclick="showdemo(4)">
+													<a href="#"> w4-card</a>
+												</li>
+												<li onclick="showdemo(5)">
+													<a href="#"> w5-blog</a>
+												</li>
+												<li onclick="showdemo(6)">
+													<a href="#"> w6-blog</a>
+												</li>
+												<li onclick="showdemo(7)">
+													<a href="#"> w7-classdemo</a>
+												</li>
 											</ul>
 											<h4 class="title">Kid's Fashion</h4>
 											<ul>
@@ -156,16 +171,18 @@
 				</div>
 			</div>
 		</header>
+		<div class="show-classdemo"></div>
 
 		<!-- Section: Main -->
-		<main class="main">
+		<!-- <main class="main">
 			<div class="container">
 
 			</div>
-		</main>
-
+		</main> -->
+		
 
 		<script src="./js/megascript.js" defer></script>
+		<script src="./js/classdemo.js"></script>
 	</body>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
