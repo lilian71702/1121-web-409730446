@@ -1,31 +1,351 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style_46.css">
-    <title>My Lading page</title>
-</head>
-<body>
-    <nav class="nav">
-        <div class="nav-center">
-            <div class="nav-header">
-                <h1>Li-an Lee</h1>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LILIAN || Home</title>
+    <!-- css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/mega1.css">
+	<link rel="stylesheet" type="text/css" href="css/maga2.css">
+  </head>
+  <body>
+    <!-- Section: Header -->
+    <header class="header">
+        <div class="container">
+            <div class="wrapper">
+                <div class="header-item-left">
+                    <h1><a href="index.html" class="brand"><img src="img/LILIAN LEE.png"></a></h1>
+                </div>
+                <!-- Section: Navbar Menu -->
+                <div class="header-item-center">
+                    <div class="overlay"></div>
+                    <nav class="menu">
+                        <div class="menu-mobile-header">
+                            <button type="button" class="menu-mobile-arrow"><i class="ion ion-ios-arrow-back"></i></button>
+                            <div class="menu-mobile-title"></div>
+                            <button type="button" class="menu-mobile-close"><i class="ion ion-ios-close"></i></button>
+                        </div>
+                        <ul class="menu-section">
+                            <li><a href="index.html">Home</a></li>
+                            <li class="menu-item-has-children">
+                              <a href="#">個人履歷 Resume <i class="ion ion-ios-arrow-down"></i></a>
+                              <div class="menu-subs menu-mega menu-column-4">
+                                <div class="list-item text-center">
+                                  
+                                  <a href="#section-classdemo">
+                                    <img src="img/resumeall.jpg" class="responsive" alt="New Product" onclick="showdemo(17)">
+                                    <h4 class="title">總覽All</h4>
+                                  </a>
+                                </div>
+                                <div class="list-item text-center">
+                                  <a href="#">
+                                    <img src="img/resumecv.jpg" class="responsive" alt="New Product">
+                                    <h4 class="title">學術經歷CV(not link)</h4>
+                                  </a>
+                                </div>
+                                <div class="list-item text-center">
+                                  <a href="#">
+                                    <img src="img/resumecf.jpg" class="responsive" alt="New Product">
+                                    <h4 class="title">證照 Certificate(not link) </h4>
+                                  </a>
+                                </div>
+                                <div class="list-item text-center">
+                                  <a href="#">
+                                    <img src="img/resumepro.jpg" class="responsive" alt="New Product">
+                                    <h4 class="title">專業 major(not link)</h4>
+                                  </a>
+                                </div>
+                              </div>
+                            </li>
+                            <li class="menu-item-has-children">
+                                <a href="#">網頁ClassDemo <i class="ion ion-ios-arrow-down"></i></a>
+                                <div class="menu-subs menu-mega menu-column-4">
+                                    <div class="list-item">
+                                        <h4 class="title">Week1--Week7</h4>
+                                        <ul>
+                                            <li onclick="showdemo(1)">
+                                                <a href="#section-classdemo"> w1-intro</a>
+                                            </li>
+                                            <li onclick="showdemo(3)">
+                                                <a href="#section-classdemo"> w3-card</a>
+                                            </li>
+                                            <li onclick="showdemo(4)">
+                                                <a href="#section-classdemo"> w4-card</a>
+                                            </li>
+                                            <li onclick="showdemo(5)">
+                                                <a href="#section-classdemo"> w5-blog</a>
+                                            </li>
+                                            <li onclick="showdemo(6)">
+                                                <a href="#section-classdemo"> w6-blog</a>
+                                            </li>
+                                            <li onclick="showdemo(7)">
+                                                <a href="#section-classdemo"> w7-classdemo</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="list-item">
+                                        <h4 class="title">Week8--Week13</h4>
+                                        <ul>
+                                          <li onclick="showdemo(8)">
+                                            <a href="#section-classdemo"> w8-landing</a>
+                                        </li>
+                                        <li onclick="showdemo(9)">
+                                          <a href="#section-classdemo"> w11-p4</a>
+                                        </li>
+                                        <li onclick="showdemo(10)">
+                                        <a href="#section-classdemo"> w11-p5</a>
+                                        </li>
+                                        <li onclick="showdemo(12)">
+                                          <a href="#section-classdemo"> w12-protfolio</a>
+                                        </li>
+                                        <li onclick="showdemo(13)">
+                                          <a href="#section-classdemo"> w13-protfolio</a>
+                                        </li>
+                                        <li onclick="showdemo(14)">
+                                          <a href="#section-classdemo"> w14-MegaMenu</a>
+                                        </li>
+                                        <li onclick="showdemo(15)">
+                                          <a href="#section-classdemo"> w15-protfolio</a>
+                                        </li>
+                                        <li onclick="showdemo(16)">
+                                          <a href="#section-classdemo"> w16-protfolio</a>
+                                        </li>
+                                    </div>
+                                    <div class="list-item">
+                                        <h4 class="title">Past works</h4>
+                                        <ul>
+                                            <li><a href="https://codepen.io/lilian717/full/eYPapVv" target="_blank">程式設計-宮燈大道</a></li>
+                                            <li><a href="https://codepen.io/lilian717/full/WNMRwmm" target="_blank">程式設計-互動角色</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="list-item">
+                                        <img src="img/networkmenu.jpg" class="responsive" alt="Shop Product">
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="menu-item-has-children">
+                                <a href="#">教育經歷 Educational experience<i class="ion ion-ios-arrow-down"></i></a>
+                                <div class="menu-subs menu-column-1">
+                                    <ul>
+                                        <li><a href="#section-ED1">2019主辦國小英文品格營</a></li>
+                                        <li><a href="#section-ED2">2023智慧校園黑客松冠軍</a></li>
+                                        <li><a href="#">2023論文發表專題(not link)</a></li>
+                                        <li><a href="#">2023國科會大專生計畫(not link)</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="header-item-right">
+                    <a href="#" class="menu-icon"><i class="ion ion-md-cart"></i></a>
+                    <button class="nav-btn" id="nav-btn">
+                    <i class="fa-solid fa-bars"></i>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+                
             </div>
-            <ul class="nav-links">
-                <li>
-                    <a href="./demo/megamenu.html">Class Demo</a>
-                </li>
-                <li>
-                    <a href="https://github.com/lilian71702/1121-web-409730446">Github</a>
-                </li>
-                <li>
-                    <a href="https://1121-web-409730446.vercel.app/">Vercel</a>
-                </li>
-            </ul>
         </div>
-    <!-- 上排選單 navigation  -->
-    </nav>
-    <script src="./js/script_46.js"></script>
-</body>
+    </header>
+    <!-- end of navbar -->
+  </div>
+</div>
+</header>
+
+<!-- Section: Main -->
+<!-- <main class="main">
+<div class="container">
+
+</div>
+</main> -->
 </html>
+<!-- header -->
+<section class="hero&about" id="main">
+  <header class="hero">
+      <div class="section-center hero-center">
+        <article class="hero-info">
+          <div class="underline"></div>
+          <h1>i'm Lilian</h1>
+          <h4>Education has for its object the formation of character.</h4>
+          <a href="https://mailto:lilian71702@gmail.com" class="hero-btn">Hire me</a>
+          <ul class="social-icons">
+            <li>
+              <a href="https://www.facebook.com/" class="social-icon">
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/" class="social-icon">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://mail.google.com/mail/u/0/" class="social-icon">
+                <i class="fa-solid fa-envelopes-bulk"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://myship.7-11.com.tw/Home/Main" class="social-icon">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.darksky.tw/" class="social-icon">
+                <i class="fa-solid fa-star"></i>
+              </a>
+            </li>
+          </ul>
+        </article>
+        <article class="hero-img">
+          <img src="img/heropage.jpg" alt="about img" class="hero-photo">
+        </article>
+
+          
+
+      
+      </div>
+    </header>
+    <!-- end of header -->
+    <!-- about -->    
+    <section class="section about">      
+      <div class="section-center about-center">        
+        <!-- about img -->        
+        <article class="about-img">         
+          <img src="img/about.jpg"  class="hero-photo" alt="about img"  /> 
+          </article> 
+          <!-- about info -->        
+          <article class="about-info">          
+            <!-- section title -->          
+            <div class="section-title about-title">            
+              <h2>about</h2>            
+              <div class="underline">
+              </div>
+            </div>
+            <!--end of section title -->         
+            <p>   我是李莉安，生性活潑開朗，在好奇的事上總是抱持著實驗家精神，所以我
+              特別喜歡親自實作與了解背後的原理、可能的因素等，這樣的性格也造就了在大
+              學非常積極參與專案，秉持著靠著兩百分的努力換取最踏實的回報。
+              </p>          
+          </article> 
+        </div>
+      </section>    
+  </section>
+  <!-- end of about -->
+
+<!-- classdemo+Resume -->
+  <section class="classdemo" id="section-classdemo">
+    <div class="show-classdemo"></div>
+  </section>
+
+
+<!-- ED1 -->    
+<section class="section about" id="section-ED1">      
+  <div class="section-center about-center">        
+    <!-- about img -->        
+    <article class="about-img">         
+      <img src="img/ED1.jpg"  class="hero-photo" alt="about img"  /> 
+      </article> 
+      <!-- about info -->        
+      <article class="about-info">          
+        <!-- section title -->          
+        <div class="section-title about-title">            
+          <h2>2019</h2>
+          <h4>主辦國小英文品格營</h4>            
+        </div>
+        <!--end of section title -->         
+        <p>   因本身擅於活動規劃且熱愛教學，故獲選為德光中學第三屆「點亮世代英
+          語生活營」總召一職。在五天的課程中，我們 不僅教導 英文 也宣導 環保和
+          人權的重要性，帶領 50 名學生一起關心社會議題為社會貢獻一己之力。
+          </p>          
+      </article> 
+    </div>
+  </section>    
+  <!-- end of ED1 -->
+
+
+  <!-- ED2 -->    
+<section class="section about" id="section-ED2">      
+  <div class="section-center about-center">  
+    <!-- about info -->        
+    <article class="about-info">          
+      <!-- section title -->          
+      <div class="section-title about-title">            
+        <h2>2023</h2>
+        <h4>智慧校園黑客松冠軍</h4>            
+      </div>
+      <article class="about-img.1">         
+        <img src="img/ED2.jpg"  class="hero-photo" alt="about img"  /> 
+        </article>
+      <!--end of section title -->                
+    </article>       
+    <!-- about img -->        
+    <article class="about-img.1">         
+      <img src="img/ED2.2.jpg"  class="hero-photo" alt="about img"  /> 
+      </article> 
+      
+    </div>
+  </section>    
+  <!-- end of ED1 -->
+
+
+    <!-- footer -->
+<footer class="footer">
+    <ul class="social-icon">
+      <li>
+        <a href="https://www.facebook.com/" class="social-icon">
+          <i class="fa-brands fa-facebook"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.instagram.com/" class="social-icon">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://mail.google.com/mail/u/0/" class="social-icon">
+          <i class="fa-solid fa-envelopes-bulk"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://myship.7-11.com.tw/Home/Main" class="social-icon">
+          <i class="fa-solid fa-cart-shopping"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.darksky.tw/" class="social-icon">
+          <i class="fa-solid fa-star"></i>
+        </a>
+      </li>
+    </ul>
+    <p>&copy; <span id="date"></span> Lilian Lee. all right resevered </p>
+  </footer>
+  <!-- end of footer -->
+
+  
+
+<script src="./js/megascript.js" defer></script>
+<script src="./js/script_46.js"></script>
+</body>
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-46156385-1', 'cssscript.com');
+ga('send', 'pageview');
+
+</script>

@@ -22,3 +22,22 @@ function showdemo(week){
             break;
     }
 }
+
+window.addEventListener('scroll', function () {
+    if (window.scrollY > 80) {
+      navbar.classList.add('navbar-fixed');
+    } else {
+      navbar.classList.remove('navbar-fixed');
+    }
+  });
+  
+  navBtn.addEventListener('click', function () {
+    sidebar.classList.add('show-sidebar');
+  });
+  
+  closeBtn.addEventListener('click', function () {
+    sidebar.classList.remove('show-sidebar');
+  });
+  
+  // set year
+  date.innerHTML = new Date().getFullYear();
