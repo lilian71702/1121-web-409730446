@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.profile {
+  display: grid;
+  place-items: center;
+  width: 350px;
+  margin: 0 auto;
+  border: 1px solid #333;
+  border-radius: 10px;
+  overflow: hidden;
+  /* Utilities */
+}
+.profile .card_image img {
+  width: 100%;
+}
+.profile .card_contacts {
+  padding: 20px;
+}
+.profile .card_contacts h2 {
+  margin-bottom: 20px;
+}
+.profile table td {
+  padding: 5px;
+}
+.profile .card_icons {
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.profile .icon {
+  padding: 15px;
+}
+.profile .l-grey {
+  color: rgba(12, 2, 2, 0.89);
+}
+.profile .d-grey {
+  color: #999;
+}
+.profile .pl-md {
+  padding-left: 30px;
+}
+
+/*# sourceMappingURL=profile_xx.css.map */
